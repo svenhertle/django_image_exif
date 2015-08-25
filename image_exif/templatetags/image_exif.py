@@ -1,7 +1,7 @@
 from django import template
 from django.core.exceptions import MultipleObjectsReturned
 
-from django_image_exif.models import ExifData
+from image_exif.models import ExifData
 
 register = template.Library()
 
