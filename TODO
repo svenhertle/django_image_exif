@@ -1,0 +1,3 @@
+* create ExifData with some parameters set overwrites them
+* tests
+* proper configuration (setup.py, manage.py)
