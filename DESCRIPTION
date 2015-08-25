@@ -1,0 +1,1 @@
+This is an extension for django-filer, that reads some EXIF data from images. I use this with djangocms.
