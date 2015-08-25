@@ -62,7 +62,7 @@ class ExifData(models.Model):
             # get necessary tags
             self.focal_length = self._get_and_format(tags,
                                                      "EXIF FocalLength",
-                                                     "%dmm", lambda s: int(s))
+                                                     "%gmm", lambda s: Fraction(s))
             self.iso = self._get_and_format(tags,
                                             "EXIF ISOSpeedRatings", "ISO %d",
                                             lambda s: int(s))
